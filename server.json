@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/busca_google-mcp",
+  "title": "Buscador Google",
+  "description": "Search Google straight from your AI agent. Web results, images, videos, news, products, scholarly ar",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/busca_google-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_busca_google"
+    }
+  ]
+}
